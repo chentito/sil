@@ -1,5 +1,36 @@
 body {
   font-family: 'Titillium Web', sans-serif;
+  overflow-x: hidden;
+}
+
+nav{
+  background: #335d74;
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none; /* no underline */
+}
+
+a:hover {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none; /* no underline */
+}
+
+.imglogo{
+  left: 20px;
+  position: fixed;
+  z-index: 1500;
+}
+
+.texto{
+  color: #6ca7b4;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
 
 .navbar-brand {
@@ -8,9 +39,24 @@ body {
   font-weight: bold;
 }
 
+.navbar .navbar-brand img {
+  height: 50px;
+}
+
+#carruselImagenes{
+  top:25px;
+}
+
 #testimonial {
-  background: #f1f1f1;
-  padding: 50px 0 30px 0;
+  background: #6ca7b4;
+  color: #ffffff;
+  text-align:center;
+  margin-top: 40px;
+}
+
+#beneficios{
+  background: #6ca7b4;
+  color: #ffffff;
   text-align:center;
   margin-top: 40px;
 }
@@ -20,6 +66,20 @@ body {
 }
 
 footer{
-  font-size: 12px;
+  font-size: 13px;
   color: #fff;
+  background: #000;
 }
+
+.special-card {
+  font-size: 12px;
+  background-color: rgba(245, 245, 245, 1);
+  opacity: .3;
+}
+
+/* For width 400px and larger:
+@media only screen and (min-width: 500px) {
+  img {
+    max-height: 100px;
+  }
+}*/
