@@ -61,6 +61,11 @@ a:hover {
   margin-top: 40px;
 }
 
+#clientesImgs{
+  background: #6ca7b4;
+  color: #ffffff;
+}
+
 #contacto {
   background: url(../img/smartphones.png);
 }
