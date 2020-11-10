@@ -16,7 +16,7 @@ return array(
 return array(
     'host'     => 'titan.hosting-mexico.net',
     'username' => 'webmaster@silindustrial.com',
-    'password' => '$.Z28aA99',
+    'password' => 'xxxxxxxxxxx',
     'port'     => '465',
     'secure'   => 'ssl',
     'from'     => 'webmaster@silindustrial.com',
